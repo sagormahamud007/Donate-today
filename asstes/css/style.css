@@ -37,7 +37,7 @@ body {
 
 .banner-content .btn a {
     text-decoration: none;
-    background: linear-gradient(tomato, red);
+    background: linear-gradient(tomato, #00ff4e);
     padding: 12px 18px;
     border-radius: 10px;
     box-shadow: 5px 7px 50px #364474;
@@ -105,10 +105,9 @@ body {
 
 .donate-content .button-area a {
     text-decoration: none;
-    background: linear-gradient(tomato, red);
+    background: linear-gradient(tomato, #488b81);
     padding: 12px 18px;
     border-radius: 10px;
-    box-shadow: 5px 7px 50px #364474;
     color: #ffffff;
     font-size: 20px;
     font-weight: 600;
@@ -144,7 +143,7 @@ body {
 .box-section .box-flaxible .content {
     padding: 50px 20px;
     margin: 0px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 5px 7px 50px gray;
 }
 
@@ -161,7 +160,7 @@ body {
 }
 
 .box-section .box-flaxible .bg-style {
-    background: #69979d;
+    background: #b6cfd3;
 }
 
 .box-section .box-flaxible .box-style {
@@ -170,4 +169,78 @@ body {
 
 .box-section .box-flaxible .backgraund-style {
     background: #a2a2a3;
+}
+
+/* ---------------form-section------------------ */
+.from-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.from-section .from-content {
+    text-align: center;
+}
+
+.from-section .from-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.from-section .from-content p {
+    margin-bottom: 40px;
+}
+
+.from-section .input-from {
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: #FFF4D6;
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.from-section .input-from .input-div {
+    padding: 12px 20px;
+    background: #D9D9D9;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.from-section .input-from .from-btn {
+    margin-top: 7px;
+}
+
+.from-section .input-from .from-btn a {
+    text-decoration: none;
+    background: linear-gradient(tomato, red);
+    padding: 13px 25px;
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+/* -----------------------fotter-section----------------------- */
+.fotter-section {
+    background: black;
+    padding: 15px 0;
+}
+
+.fotter-section .fotter-content {
+    text-align: center;
+}
+
+.fotter-section .fotter-content h3 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FF5959;
+}
+
+.fotter-section .fotter-content p {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
 }
