@@ -25,19 +25,19 @@ body {
 }
 
 .banner-content .heading-content {
-    color: #62ff00;
+    color: #b5b017;
 }
 
 .banner-content p {
-    color: #ffffff;
-    font-size: 18px;
+    color: #fff4f9;
+    font-size: 22px;
     font-weight: 400;
     margin-bottom: 50px;
 }
 
 .banner-content .btn a {
     text-decoration: none;
-    background: linear-gradient(tomato, #00ff4e);
+    background: linear-gradient(tomato, #488b81);
     padding: 12px 18px;
     border-radius: 10px;
     box-shadow: 5px 7px 50px #364474;
@@ -217,8 +217,9 @@ body {
 }
 
 .middile-section .middile-parrent .paragraph-content p {
-    color: #e8ffca;
-    margin-bottom: 30px;
+    color: #d5d7d2;
+    font-weight: 400;
+    font-size: 16px;
     margin-bottom: 50px;
 }
 
@@ -240,6 +241,9 @@ body {
 
 .from-section .from-content p {
     margin-bottom: 40px;
+    font-size: 18px;
+    color: #616662;
+    font-weight: 400;
 }
 
 .from-section .input-from {
