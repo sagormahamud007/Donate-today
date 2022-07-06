@@ -4,6 +4,8 @@ body {
     padding: 0;
 }
 
+/* ----------------------banner-section------------------------ */
+
 .banner-section {
     background-image: url(../images/donation13.jpg);
     background-repeat: no-repeat;
@@ -44,6 +46,8 @@ body {
     font-weight: 600;
 }
 
+/* -------------------------donate-section---------------------- */
+
 .donate-content {
     text-align: center;
 }
@@ -66,18 +70,33 @@ body {
     justify-content: center;
 }
 
-.donate-content .flaxible-div h2 {
+.donate-content .flaxible-div ul {
+    display: flex;
+}
+
+.donate-content .flaxible-div ul li {
+    list-style: none;
+}
+
+.donate-content .flaxible-div ul li a {
+    text-decoration: none;
+    margin: 0px 20px;
     font-size: 30px;
     font-weight: 700;
     margin: 0px 20px;
-    background: #f1f1f1;
+    background: #f9f9f9;
     padding: 20px 10px;
+    color: #707070;
+    border-radius: 5px;
 }
 
-.donate-content .flaxible-div .backgraund-color {
-    background: #cf8888;
-    border: 2px solid #FF5959;
+.donate-content .flaxible-div ul .backgraund-color {
+    background: #dfaaaa;
+    color: brown;
+    padding: 20px 14px;
+    border: 2px solid tomato;
 }
+
 
 .donate-content .button-area {
     text-align: center;
@@ -102,4 +121,53 @@ body {
 
 .donate-content .button-area .middile-area {
     width: 50%;
+}
+
+/* ---------------------box-section-------------------- */
+.box-section .box-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.box-section .box-content h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.box-section .box-flaxible {
+    display: flex;
+    padding: 0 10%;
+    margin-top: 50px;
+}
+
+.box-section .box-flaxible .content {
+    padding: 50px 20px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 50px gray;
+}
+
+.box-section .box-flaxible .box-peragraph h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #121212;
+}
+
+.box-section .box-flaxible .box-peragraph p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.box-section .box-flaxible .bg-style {
+    background: #69979d;
+}
+
+.box-section .box-flaxible .box-style {
+    background: #e5a3a3;
+}
+
+.box-section .box-flaxible .backgraund-style {
+    background: #a2a2a3;
 }
