@@ -1,0 +1,105 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-section {
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    margin-bottom: 100px;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-content h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.banner-content .heading-content {
+    color: #62ff00;
+}
+
+.banner-content p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.banner-content .btn a {
+    text-decoration: none;
+    background: linear-gradient(tomato, red);
+    padding: 12px 18px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 50px #364474;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.donate-content {
+    text-align: center;
+}
+
+.donate-content .heading {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.donate-content .peragraph {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 0;
+}
+
+.donate-content .flaxible-div {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-content .flaxible-div h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px 20px;
+    background: #f1f1f1;
+    padding: 20px 10px;
+}
+
+.donate-content .flaxible-div .backgraund-color {
+    background: #cf8888;
+    border: 2px solid #FF5959;
+}
+
+.donate-content .button-area {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.donate-content .button-area a {
+    text-decoration: none;
+    background: linear-gradient(tomato, red);
+    padding: 12px 18px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 50px #364474;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.donate-content .button-area .btn {
+    margin-top: 50px;
+}
+
+.donate-content .button-area .middile-area {
+    width: 50%;
+}
