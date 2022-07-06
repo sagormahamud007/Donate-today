@@ -171,6 +171,50 @@ body {
     background: #a2a2a3;
 }
 
+/* ----------------middile-section------------------ */
+.middile-section .middile-parrent {
+    display: flex;
+    margin-top: 100px;
+}
+
+.middile-section .middile-parrent .middile-content img {
+    height: 400px;
+    width: 650px;
+}
+
+.middile-section .middile-parrent .middile-content {
+    width: 50%;
+}
+
+.middile-section .middile-parrent .paragraph-content {
+    background: black;
+    padding: 0px 40px;
+}
+
+.middile-section .middile-parrent .paragraph-content .middile-btn a {
+    text-decoration: none;
+    background: linear-gradient(tomato, #488b81);
+    padding: 12px 18px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.middile-section .middile-parrent .paragraph-content h2 {
+    color: #ffffff;
+    margin-top: 80px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.middile-section .middile-parrent .paragraph-content p {
+    color: #e8ffca;
+    margin-bottom: 30px;
+
+}
+
 /* ---------------form-section------------------ */
 .from-section {
     margin-top: 100px;
@@ -244,3 +288,5 @@ body {
     font-size: 14px;
     font-weight: 400;
 }
+
+/* --------------------End-------------------------- */
